@@ -12,7 +12,8 @@ This assignment involved a hands-on exploration of Oracle Multitenant Architectu
 * Environment monitoring via Oracle Enterprise Manager (OEM).
 
 
-### Task 1: Permanent PDB & User Creation.
+## Task 1: Permanent PDB & User Creation.
+
 Created a permanent PDB as well as a user. 
 
 Inorder to create the pluggable database several steps were taken:
@@ -79,7 +80,7 @@ Then we create our temporary PDB using:
 ```
 CREATE PLUGGABLE DATABASE sa_to_delete_pdb_28958
 ADMIN USER admin IDENTIFIED BY admin
-FILE_NAME_CONVERT = ('C:\ORACLE21C\ORADATA\ORCL\PDBSEED', 'C:\ORACLE21C\ORADATA\ORCL\sa_to_delete_pdb_28958');
+FILE_NAME_CONVERT = ('C:\ORACLE21C\ORADATA\ORCL\PDBSEED\', 'C:\ORACLE21C\ORADATA\ORCL\sa_to_delete_pdb_28958\');
 ```
 
 ![Temp PDB creation](Screenshots/pdb_to_delete_created.jpg)
