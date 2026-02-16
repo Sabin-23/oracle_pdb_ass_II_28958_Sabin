@@ -40,6 +40,11 @@ The second step is opening the pdb for use:
 ```
 ALTER PLUGGABLE DATABASE sa_pdb_28958 OPEN;
 ```
+Then we use this command to check the state of the PDB:
+
+```
+show pdbs;
+```
 
 ![PDB STATE](Screenshots/pdb_open.jpg)
 
