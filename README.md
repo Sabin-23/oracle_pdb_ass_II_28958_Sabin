@@ -1,4 +1,4 @@
-# Oracle 21c Pluggable Database: Oracle Multitenant Administration
+# Oracle 21c Pluggable Database Management: Oracle Multitenant Architecture 
 **Student Name:** Ishimwe Sabin
 **Student ID:** 28958
 
